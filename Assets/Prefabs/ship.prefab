@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 8344041532633129881}
   - component: {fileID: 4577338927947959306}
   - component: {fileID: 8794260304170220016}
-  - component: {fileID: 896679031009646393}
+  - component: {fileID: 8884876448837755590}
+  - component: {fileID: 5507617084798418224}
+  - component: {fileID: 5365220280478433201}
+  - component: {fileID: 329464566690378328}
   m_Layer: 0
   m_Name: ship
   m_TagString: Untagged
@@ -64,7 +67,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &896679031009646393
+--- !u!114 &8884876448837755590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,16 +76,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 2708252833709529029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fac6b3e848a97c4408e56d54b2707a84, type: 3}
+  m_Script: {fileID: 11500000, guid: bad212847fe62134daed3924cb81ee66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  rotationSpeed: 250
+  moveSpeed: 9
+  rotationSpeed: 100
+--- !u!114 &5507617084798418224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df86b4436b0c9348a53addd1e8ffb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   laserPrefab: {fileID: 6296192066327028313, guid: fb1761f4ca56baf4184f207a50c08d0a,
     type: 3}
   cooldownTime: 1
+--- !u!114 &5365220280478433201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c300f4523108e4a927b77513e4de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemImageHolder: {fileID: 0}
-  introductionField: {fileID: 0}
+--- !u!114 &329464566690378328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708252833709529029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58805d81c461def4180cba92e71f3798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImageHolder: {fileID: 0}
 --- !u!1001 &9044626916692821676
 PrefabInstance:
   m_ObjectHideFlags: 0
